@@ -21,3 +21,7 @@ Wrangler2 using SvelteKit:
 npm run build
 npx wrangler@beta pages dev .svelte-kit\cloudflare\ -k kvName
 ```
+
+Make sure there is no "functions" directory when using SvelteKit.
+
+This is based on beta features and may not work in the final release of Wrangler2
